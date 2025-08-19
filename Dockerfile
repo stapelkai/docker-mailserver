@@ -7,7 +7,7 @@
 # Base stage provides all packages, config, and adds scripts
 #
 
-FROM docker.io/debian:11-slim AS stage-base
+FROM docker.io/debian:13-slim AS stage-base
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG DOVECOT_COMMUNITY_REPO=0
